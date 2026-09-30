@@ -1,0 +1,40 @@
+// Half Past — public image URLs for Lovable (paste into prompt or copy file into project)
+export const IMAGE_BASE = "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets";
+
+export const images = {
+  around_01_depasquale_fountain_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-01-depasquale-fountain-wide.jpg",
+  around_01_depasquale_fountain: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-01-depasquale-fountain.jpg",
+  around_02_atwells_evening_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-02-atwells-evening-wide.jpg",
+  around_02_atwells_evening: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-02-atwells-evening.jpg",
+  around_03_river_walk_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-03-river-walk-wide.jpg",
+  around_03_river_walk: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-03-river-walk.jpg",
+  around_04_park_garden_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-04-park-garden-wide.jpg",
+  around_04_park_garden: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/around-04-park-garden.jpg",
+  half_past_desktop_01_exterior_panorama: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-01-exterior-panorama.jpg",
+  half_past_desktop_02_interior_panorama: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-02-interior-panorama.jpg",
+  half_past_desktop_03_dining_pov_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-03-dining-pov-wide.jpg",
+  half_past_desktop_04_pass_spread_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-04-pass-spread-wide.jpg",
+  half_past_desktop_05_host_welcome_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-05-host-welcome-wide.jpg",
+  half_past_desktop_06_neighborhood_night_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-06-neighborhood-night-wide.jpg",
+  half_past_desktop_07_story_triptych_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-07-story-triptych-wide.jpg",
+  half_past_desktop_08_counter_before_service: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-desktop-08-counter-before-service.jpg",
+  half_past_photo_01_exterior: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-photo-01-exterior.jpg",
+  half_past_photo_02_interior_wide: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-photo-02-interior-wide.jpg",
+  half_past_photo_03_chef_plating: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-photo-03-chef-plating.jpg",
+  half_past_photo_04_guests_candid: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-photo-04-guests-candid.jpg",
+  half_past_photo_05_marco_host: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-photo-05-marco-host.jpg",
+  half_past_photo_06_interior_detail: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/half-past-photo-06-interior-detail.jpg",
+  section_book_desktop: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-book-desktop.jpg",
+  section_book_mobile: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-book-mobile.jpg",
+  section_confirm_desktop: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-confirm-desktop.jpg",
+  section_confirm_mobile: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-confirm-mobile.jpg",
+  section_desk_desktop: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-desk-desktop.jpg",
+  section_desk_mobile: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-desk-mobile.jpg",
+  section_home_desktop: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-home-desktop.jpg",
+  section_home_mobile: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-home-mobile.jpg",
+  section_mockup_glass_over_book_desktop: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-mockup-glass-over-book-desktop.jpg",
+  section_why_desktop: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-why-desktop.jpg",
+  section_why_mobile: "https://raw.githubusercontent.com/helloAbhishekJha/halfpastimages/main/assets/section-why-mobile.jpg",
+} as const;
+
+export type ImageKey = keyof typeof images;
